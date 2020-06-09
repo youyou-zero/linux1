@@ -1,0 +1,20 @@
+server:
+  port: 8081 # 用来指定内嵌 tomcat端口号
+  context-path: /redis #指定当前项目的访问名字
+
+# redis相关配置
+spring:
+  redis:
+    host: 192.168.8.105 #redis服务所在主机ip
+    port: 7000
+    database: 0
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #指定连接池类型
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: 123
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.baizhi.entity
