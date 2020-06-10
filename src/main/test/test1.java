@@ -12,6 +12,10 @@ public class test1 {
         System.out.println("B:test2");
 
 
+        System.out.println("bbb");
+
+
+
         System.out.println("aaa");
 
 
