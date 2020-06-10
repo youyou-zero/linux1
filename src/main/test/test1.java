@@ -6,6 +6,9 @@ public class test1 {
         System.out.println("a function");
         System.out.println("A:add one in test1.class");
 
+        System.out.println("A:test1");
+
+
 
     }
 }
